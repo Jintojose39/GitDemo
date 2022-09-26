@@ -40,12 +40,17 @@ public class Locator2 {
 			} else {
 
 				System.out.println("Test is  Failed");
+				
+				System.out.println("Try again later");
 
 			}
 
 		} catch (NoSuchElementException e) {
 
 			System.out.println("No Such Element Exception");
+			
+			
+			
 		}
 
 		driver.close();
