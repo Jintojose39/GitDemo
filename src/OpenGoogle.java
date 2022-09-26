@@ -70,6 +70,8 @@ public class OpenGoogle {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		//driver.close();
 		
+		
+		System.out.println("This is for Open Google");
 		//to closes the all windows which is opened and ending the webdriver section
 		//driver.quit();
 	}
